@@ -1,28 +1,31 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@react-native-community/masked-view": "0.1.10",
-    "@react-navigation/native": "^5.9.4",
-    "expo": "~41.0.1",
-    "expo-status-bar": "~1.0.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-    "react-native-gesture-handler": "~1.10.2",
-    "react-native-reanimated": "~2.1.0",
-    "react-native-safe-area-context": "3.2.0",
-    "react-native-screens": "~3.0.0",
-    "react-native-web": "~0.13.12"
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.5.2",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-mysql-session": "^2.1.4",
+    "express-validator": "^6.6.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "session": "^0.1.0",
+    "timeago.js": "^4.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0"
-  },
-  "private": true
+    "nodemon": "^2.0.7"
+  }
 }
